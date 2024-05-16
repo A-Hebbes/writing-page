@@ -7,6 +7,7 @@
     --color3: #588157;
     --color4: #a3b18a;
     --color5: #dad7cd;
+    font-size: 16px;
 }
 
 /*----------------------------------- Header*/
@@ -30,5 +31,23 @@ header {
 
 .name {
     font-family: "Baskerville", sans-serif;
-    font-weight: 100;
+    font-weight: 400;
+    font-size: 2.875em;
+    margin-top: 3.25em;
+    color: var(--color5)
+}
+
+.title {
+    font-family: "Merriweather", sans-serif;
+    font-weight: 400;
+    font-size: 1.75em;
+    margin-top: 1.25em;
+    margin-bottom: 5.625em;
+    color: var(--color5)
+}
+
+.menu-style {
+    background-color: var(--color2);
+  /*Now you need to add styles to this for borders etc.*/  
+
 }
