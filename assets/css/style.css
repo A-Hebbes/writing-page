@@ -57,6 +57,10 @@ header {
     border-style: solid;
 }
 
+.list-inline-item:not(:last-child){
+    margin: 0;
+}
+
 .text {
     color: var(--color5)
     
